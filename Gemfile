@@ -7,17 +7,19 @@ gem 'rails', '3.2.9'
 
 gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
 
+gem 'sqlite3'
 
 # Gems used only for assets and not required
 # in production environments by default.
 
 group :development do
-  gem 'rspec-rails', '2.0.1'
+  gem 'rspec-rails', '2.12.0'
 end
 
 group :test do
-  gem 'rspec', '2.0.1'
+  gem 'rspec', '2.12.0'
   gem 'webrat', '0.7.1'
+  gem 'spork'
 end
 
 group :assets do
